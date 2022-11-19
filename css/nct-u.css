@@ -11,16 +11,11 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-columns:repeat(8, 1fr);
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  justify-self: center;
-  margin: 0 auto;
-  width: 80%;
-  grid-column-gap: 35px;
-  grid-row-gap: 11px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 90%;
 }
 
 /* main div {
